@@ -1,0 +1,113 @@
+.imagenFondo {
+    background-image: url("../img/postre.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: sticky;
+
+}
+
+.precios {
+    text-decoration: none;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #b7c03f;
+}   
+
+#productos {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    img {
+        height: 200px;
+        border-radius: 20px; 
+    }
+}
+
+.galeria {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.serviciosA {
+    grid-area: serviciosA; 
+}
+
+.serviciosB {
+    grid-area: serviciosB;
+}
+
+.serviciosC {
+    grid-area: serviciosC;
+}
+
+.serviciosD {
+    grid-area: serviciosD;
+}
+
+.gridServicios {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "servicios servicios"
+    "serviciosB serviciosA"
+    "serviciosD serviciosC"
+    "footer footer"
+    
+    ;
+}
+
+/* UBICACION */
+
+.textoUbicacion {
+    width: 300px;
+    text-align: center;
+}
+
+.ubicacion {
+    width: 300px;
+    text-align: center;
+}
+
+#mapa {
+    text-align: center;
+}
+
+/* CONTACTO */
+
+#contacto {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 50vw;
+    }
+
+}
+
+.campo {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.tamBotonForm {
+    width: 200px;
+    margin: auto;
+}

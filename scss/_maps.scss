@@ -1,0 +1,18 @@
+$mapRedes:(facebook:blue, instagram:orange, twitter: rgb(38, 113, 243));
+
+@each $blue, $color in $mapRedes {
+    .#{$blue} {
+        color: $color;
+    }
+}
+
+/* MAP - GET*/
+
+$estilo:(width: 65px, marginLeft: 10vw, marginRight:10vw);
+
+.tamlogo {
+    width: map-get($map: $estilo, $key: width);
+    margin-left: map-get($map: $estilo, $key: marginLeft);
+    margin-right: map-get($map: $estilo, $key:marginRight);
+
+}

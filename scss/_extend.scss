@@ -1,0 +1,11 @@
+.galeria {
+    text-align: center;
+    border: 1px solid #444444;
+}
+
+.seccion {
+    @extend .galeria;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 4px;
+}
