@@ -1,14 +1,11 @@
 @media (max-width: 768px) {
-    .gridServicios {
-        display: grid;
-        grid-template-areas: 
-        "header"
-        "servicios"
-        "serviciosB"
-        "serviciosA"
-        "serviciosD"
-        "serviciosC"
-        "footer"
+
+    .sobreNosotros {
+        
+
+        img {
+            width: 90vw;
+        }
     }
 
     .seccion {

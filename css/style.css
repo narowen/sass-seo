@@ -83,37 +83,17 @@ h1 {
   color: #fff;
   background-color: #b7c03f; }
 
-#productos {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap; }
-  #productos img {
-    height: 200px;
-    border-radius: 20px; }
+.sobreNosotros img {
+  width: 48vw; }
 
-.galeria, .seccion {
-  margin: 20px;
-  padding: 20px;
-  border-radius: 20px; }
+/* Productos */
+.productos {
+  background-color: antiquewhite; }
 
-.serviciosA {
-  grid-area: serviciosA; }
-
-.serviciosB {
-  grid-area: serviciosB; }
-
-.serviciosC {
-  grid-area: serviciosC; }
-
-.serviciosD {
-  grid-area: serviciosD; }
-
-.gridServicios {
-  display: grid;
-  grid-template-areas: "header header" "servicios servicios" "serviciosB serviciosA" "serviciosD serviciosC" "footer footer"; }
+/* SERVICIOS */
+.servicios span p {
+  color: #1c59ca;
+  font-weight: bold; }
 
 /* UBICACION */
 .textoUbicacion {
@@ -175,9 +155,8 @@ footer {
         font-size: 0.938rem; }
 
 @media (max-width: 768px) {
-  .gridServicios {
-    display: grid;
-    grid-template-areas: "header" "servicios" "serviciosB" "serviciosA" "serviciosD" "serviciosC" "footer"; }
+  .sobreNosotros img {
+    width: 90vw; }
   .seccion {
     margin: 10px;
     padding: 10px;

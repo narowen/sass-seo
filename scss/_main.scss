@@ -17,54 +17,32 @@
     background-color: #b7c03f;
 }   
 
-#productos {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+
+.sobreNosotros {
 
     img {
-        height: 200px;
-        border-radius: 20px; 
+        width: 48vw;
     }
 }
 
-.galeria {
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
+/* Productos */
+
+.productos {
+    background-color: antiquewhite;
 }
 
 
-.serviciosA {
-    grid-area: serviciosA; 
+/* SERVICIOS */
+.servicios {
+    span {
+        p {
+            color: #1c59ca;
+            font-weight: bold;
+        }
+    }
 }
 
-.serviciosB {
-    grid-area: serviciosB;
-}
 
-.serviciosC {
-    grid-area: serviciosC;
-}
-
-.serviciosD {
-    grid-area: serviciosD;
-}
-
-.gridServicios {
-    display: grid;
-    grid-template-areas: 
-    "header header"
-    "servicios servicios"
-    "serviciosB serviciosA"
-    "serviciosD serviciosC"
-    "footer footer"
-    
-    ;
-}
 
 /* UBICACION */
 
