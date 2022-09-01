@@ -1,91 +1,94 @@
 .imagenFondo {
-    background-image: url("../img/postre.jpg");
-    background-size: cover;
-    height: 100vh;
-    position: sticky;
-
+  background-image: url("../img/postre.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: sticky;
 }
 
 .precios {
-    text-decoration: none;
-    font-size: 0.875rem;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 14px 32px;
-    border-radius: 4px;
-    color: #fff;
-    background-color: #b7c03f;
-}   
-
+  text-decoration: none;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #b7c03f;
+}
 
 .sobreNosotros {
-
-    img {
-        width: 48vw;
-    }
+  img {
+    width: 48vw;
+  }
 }
 
 /* Productos */
-
 .productos {
-    background-color: antiquewhite;
+  background-color: antiquewhite;
 }
-
 
 /* SERVICIOS */
 .servicios {
-    span {
-        p {
-            color: #1c59ca;
-            font-weight: bold;
-        }
+  span {
+    p {
+      color: #1c59ca;
+      font-weight: bold;
     }
+  }
 }
 
 
+
+.imgPanaderia {
+  text-align: center;
+    img {
+      width: 400px;
+    }
+}
 
 /* UBICACION */
 
 .textoUbicacion {
-    width: 300px;
-    text-align: center;
+  width: 300px;
+  text-align: center;
 }
 
 .ubicacion {
-    width: 300px;
-    text-align: center;
+  width: 300px;
+  text-align: center;
 }
 
 #mapa {
-    text-align: center;
+  margin: auto;
+  width: 400px;
+  height: 300px;
 }
 
 /* CONTACTO */
 
 #contacto {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  form {
     display: flex;
-    align-items: center;
-    justify-content: center;
-
-    form {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        width: 50vw;
-    }
-
+    flex-direction: column;
+    text-align: center;
+    width: 50vw;
+  }
 }
 
 .campo {
-    display: block;
-    width: 50%;
-    padding: 10px;
-    margin: 10px auto;
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: 10px auto;
 }
 
 .tamBotonForm {
-    width: 200px;
-    margin: auto;
+  width: 200px;
+  margin: auto;
 }
