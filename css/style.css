@@ -162,6 +162,8 @@ footer {
 @media (max-width: 768px) {
   .sobreNosotros img {
     width: 90vw; }
+  .sobreNosotros p {
+    width: 90vw; }
   .seccion {
     margin: 10px;
     padding: 10px;
@@ -190,5 +192,9 @@ footer {
     height: 45vh; }
   footer h3 {
     font-size: 0.7rem; }
-  footer nav ul li a {
-    font-size: 0.5rem; } }
+  footer nav ul {
+    margin: 0; }
+    footer nav ul li {
+      display: block; }
+      footer nav ul li a {
+        font-size: 0.5rem; } }
